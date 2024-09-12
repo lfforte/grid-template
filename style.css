@@ -1,1 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 
+.header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid grey;
+  height: 30px;
+  background-color: grey;
+ }
+
+ .logo{
+  margin-left: 5px;
+ }
+
+ .button{
+  align-self: center;
+  justify-self: end;
+  margin-right: 5px;
+ }
+
+ .button-logout{
+  width: 80px;
+ }
+
+ .main{
+  display: grid;
+  background-color: royalblue;
+  padding: 5px;
+  grid-template-columns: 0.9fr 3fr 0.5fr;
+ }
+ .content-container{
+  width: 95%;
+  border: 1px dashed whitesmoke;
+  padding: 2px;
+ }
+ .gallery{
+  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 5px;
+  column-gap: 5px;
+  padding: 2px;
+  border: 1px solid blanchedalmond;
+ }
+
+ .footer{
+  border: 1px solid gray;
+  background-color: grey;
+  padding: 10px;
+  text-align: center;
+ }
